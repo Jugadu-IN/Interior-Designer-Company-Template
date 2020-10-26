@@ -1,6 +1,5 @@
 import React ,{useEffect}from "react";
 import HeroSlider, { Slide, MenuNav, OverlayContainer } from "hero-slider";
-import Navbar from "./UI/Navbar/Navbar";
 import Wrapper from "./UI/Wrapper/Wrapper";
 import Title from "./UI/Title/Title";
 import Subtitle from "./UI/Subtitle/Subtitle";
@@ -40,7 +39,7 @@ const GetStarted = () => {
         height: "100vh"
       }}
     >
-      <Navbar />
+      
       <OverlayContainer>
         <Wrapper>
           <Title>INDIAN INTERIORS</Title>
